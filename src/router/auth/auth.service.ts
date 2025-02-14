@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
-import { ResponseCode } from '@/common';
+import { ResponseCode } from '../../common';
 import { SigninDto } from './types';
 import { Request } from 'express';
-import { throwUnauthorizedException } from '@/guards';
+import { throwUnauthorizedException } from '../../guards';
 
 const user = [
     {

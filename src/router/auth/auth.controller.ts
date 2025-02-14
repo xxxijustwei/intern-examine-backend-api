@@ -1,9 +1,9 @@
 import { Body, Controller, Get, Post, Req } from '@nestjs/common';
 import { AuthService } from './auth.service';
-import { IRequest } from '@/common';
+import { IRequest } from '../../common';
 import { ApiCreatedResponse, ApiOkResponse, ApiOperation } from '@nestjs/swagger';
 import { AccessTokenDto, SigninDto, UserInfoDto } from './types';
-import { IgnoreAuth } from '@/guards/user-auth-guard';
+import { IgnoreAuth } from '../../guards/user-auth-guard';
 import { Request } from 'express';
 
 @Controller('api/auth')

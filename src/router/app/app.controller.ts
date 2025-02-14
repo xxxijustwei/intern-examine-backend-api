@@ -2,7 +2,7 @@ import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 import { ApiOperation } from '@nestjs/swagger';
 import { ApiResponse } from '@nestjs/swagger';
-import { CommonResponseDto } from '@/interceptor';
+import { CommonResponseDto } from '../../interceptor';
 
 @Controller()
 export class AppController {

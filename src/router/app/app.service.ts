@@ -1,4 +1,4 @@
-import { ResponseCode } from '@/common';
+import { ResponseCode } from '../../common';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
