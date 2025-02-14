@@ -1,0 +1,1 @@
+export { ResponseInterceptor, getResponseDto as getResponseSchema, CommonResponseDto } from "./response-interceptor";
