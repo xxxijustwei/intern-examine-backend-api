@@ -1,4 +1,4 @@
-import { EXAPAY_CATEGORY, ResponseCode, getResponseMessage } from "@/common";
+import { EXAPAY_CATEGORY, ResponseCode, getResponseMessage } from "../common";
 import { createZodDto } from "@anatine/zod-nestjs";
 import { BadRequestException, CallHandler, ExecutionContext, HttpException, Injectable, NestInterceptor } from "@nestjs/common";
 import { Observable, catchError, map, throwError } from "rxjs";

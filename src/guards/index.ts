@@ -1,4 +1,4 @@
-import { EXAPAY_CATEGORY, ResponseCode, getResponseMessage } from "@/common";
+import { EXAPAY_CATEGORY, ResponseCode, getResponseMessage } from "../common";
 import { HttpException } from "@nestjs/common";
 
 export { UserAuthGuard } from "./user-auth-guard";
